@@ -5,7 +5,7 @@ import Rules from "./Rules";
 import Last from "./Last";
 import About from "./Shiva/About";
 import Index1 from "./Shiva/Index1";
-import Index from "./Shiva/Index";
+import Index from "./Shiva/Indexv";
 import Typography from "@material-ui/core/Typography";
 
 export default function Home() {

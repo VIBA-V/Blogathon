@@ -2,7 +2,7 @@ import React from "react";
 import "./stylev.css";
 import { SocialIcon } from "react-social-icons";
 import Typography from "@material-ui/core/Typography";
-const Index = () => {
+const Indexv = () => {
   return (
     <div>
       <footer
@@ -29,13 +29,13 @@ const Index = () => {
           <p>VIBA &copy; 2020</p>
         </div>
         <div class="footer-right">
-          <SocialIcon url="https://www.instagram.com/ " />
-          <SocialIcon url="https://www.linkedin.com/ " />
-          <SocialIcon url="https://twitter.com/" />
+          <SocialIcon url="https://instagram.com/___viba__?igshid=dqkgiij7qnfr " />
+          <SocialIcon url="https://www.linkedin.com/company/viba-vaagdevi-incubation-and-business-accelerator " />
+          <SocialIcon url="https://www.facebook.com/vaagdevi.colleges.18" />
         </div>
       </footer>
     </div>
   );
 };
 
-export default Index;
+export default Indexv;

@@ -3,8 +3,8 @@ import "./App.css";
 import Home from "./components/Home";
 import Abouts from "./components/Shiva/Abouts";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Index from "./components/Shiva/Index";
-import Theme from "./components/Theme";
+import Indexv from "./components/Shiva/Indexv";
+import Last from "./components/Last";
 import About from "./components/Shiva/About";
 
 function App() {
@@ -21,11 +21,11 @@ function App() {
           <Route path="/Blogathon/About">
             <About />
           </Route>
-          <Route path="/Blogathon/Rachana">
-            <Theme />
+          <Route path="/Blogathon/Apply">
+            <Last />
           </Route>
           <Route path="/Blogathon/Contact">
-            <Index />
+            <Indexv />
           </Route>
         </Switch>
       </div>

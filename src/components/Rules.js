@@ -15,7 +15,7 @@ export default function Rules() {
 
     "Blog has to be submitted in English and can be uploaded in any file format (Word or PDF).",
 
-    "All entries are to be uploaded in the Google form by Thursday, 28 May 2020.",
+    "All entries are to be uploaded in the Google form by Sunday, 31 May 2020.",
 
     "Word limit of each blog is 800-1200 words.",
 

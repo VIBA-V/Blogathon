@@ -25,11 +25,11 @@ const H2 = () => {
             <Link to="/Blogathon/" className="navLink">
               Home
             </Link>
-            <Link to="/Blogathon/About" className="navLink">
+            <Link to="/Blogathon/Abouts" className="navLink">
               About us
             </Link>
-            <Link to="/Blogathon/Rachana" className="navLink">
-              RACHANA
+            <Link to="/Blogathon/Apply" className="navLink">
+              Apply
             </Link>
             <Link to="Blogathon/Contact" className="navLink">
               Contact us
@@ -117,21 +117,21 @@ const H2 = () => {
           >
             <a href="#" className="social-link" aria-label="snapchat">
               <SocialIcon
-                url="https://twitter.com/jaketrent"
+                url="https://www.facebook.com/vaagdevi.colleges.18"
                 bgColor="#fff"
                 fgColor="black"
               />
             </a>
             <a href="#" className="social-link" aria-label="airbnb">
               <SocialIcon
-                url="https://www.instagram.com/"
+                url="https://instagram.com/___viba__?igshid=dqkgiij7qnfr"
                 bgColor="#fff"
                 fgColor="black"
               />
             </a>
             <a href="#" className="social-link" aria-label="instagram">
               <SocialIcon
-                url="https://www.linkedin.com/"
+                url="https://www.linkedin.com/company/viba-vaagdevi-incubation-and-business-accelerator"
                 bgColor="#fff"
                 fgColor="black"
               />

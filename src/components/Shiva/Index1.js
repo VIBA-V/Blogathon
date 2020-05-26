@@ -31,7 +31,7 @@ const H2 = () => {
             <Link to="/Blogathon/Apply" className="navLink">
               Apply
             </Link>
-            <Link to="Blogathon/Contact" className="navLink">
+            <Link to="/Blogathon/Contact" className="navLink">
               Contact us
             </Link>
           </nav>

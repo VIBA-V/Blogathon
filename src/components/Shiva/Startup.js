@@ -5,6 +5,7 @@ import img32 from "./img/2.png";
 import img33 from "./img/3.png";
 import img34 from "./img/4.png";
 import img35 from "./img/5.png";
+import img121 from "./img/121.png";
 import Typography from "@material-ui/core/Typography";
 
 export default function Startup() {
@@ -28,6 +29,24 @@ export default function Startup() {
       </Typography>
       <div className="dosa">
         <div
+          className="dosa6"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+        >
+          <img src={img33} />
+        </div>
+        <div
+          className="dosa121"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+        >
+          <img src={img121} />
+        </div>
+        <div
           className="dosa1"
           data-aos="fade-up"
           data-aos-offset="200"
@@ -45,22 +64,7 @@ export default function Startup() {
         >
           <img src={img32} />
         </div>
-        <div
-          className="dosa6"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600"
-        >
-          <img src={img33} />
-        </div>
-        <div
-          className="dosa4"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600"
-        >
+        <div className="dosa4">
           <img src={img34} />
         </div>
         <div className="dosa5">

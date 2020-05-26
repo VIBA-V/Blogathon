@@ -25,6 +25,18 @@ const Indexv = () => {
           >
             Contact us at : 8106885376
           </Typography>
+          <Typography
+            style={{
+              margin: "3vh 0vh",
+              color: "#FFFFFF",
+              fontWeight: "bolder",
+              letterSpacing: "2.7px",
+              textAlign: "start",
+            }}
+            variant="h6"
+          >
+            Mail us at : vibafoundation@gmail.com
+          </Typography>
 
           <p>VIBA &copy; 2020</p>
         </div>

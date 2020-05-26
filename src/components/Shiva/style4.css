@@ -17,12 +17,13 @@ body {
 .services2 h3 {
   padding: 1vh 0vh;
   text-align: center;
+  font-size: 4.5vh;
 }
 .services2 p {
   line-height: 1.65em;
   color: grey;
-  text-align: left;
-  padding: 5px 15px;
+  text-align: center;
+  padding: 3vh 3vh;
 }
 .services1 {
   display: grid;
@@ -44,7 +45,7 @@ body {
     line-height: 1.95em;
     color: grey;
     font-size: 18px;
-    margin-left: 40px;
+    text-align: center;
   }
   .services2 h3 {
     text-align: center;

@@ -17,7 +17,7 @@ export default function Theme() {
         data-aos-duration="600"
         style={{
           margin: "3vh 0vh",
-          color: "#FCF951FF",
+          color: "#000000",
           fontWeight: "bolder",
           letterSpacing: "4.5px",
         }}

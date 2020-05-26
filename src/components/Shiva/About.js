@@ -44,7 +44,7 @@ export default function About() {
           drive the budding youth towards entrepreneurial space and live up with
           their life of independancy.
         </p>
-        <Link to="/Abouts">
+        <Link to="/rachana/Abouts">
           <button className="btn">Know more</button>
         </Link>
       </div>

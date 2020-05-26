@@ -22,16 +22,16 @@ const H2 = () => {
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
           >
-            <Link to="/Rachana/" className="navLink">
+            <Link to="/Blogathon/" className="navLink">
               Home
             </Link>
-            <Link to="/Rachana/About" className="navLink">
+            <Link to="/Blogathon/About" className="navLink">
               About us
             </Link>
-            <Link to="/Rachana/Rachana" className="navLink">
+            <Link to="/Blogathon/Rachana" className="navLink">
               RACHANA
             </Link>
-            <Link to="Rachana/Contact" className="navLink">
+            <Link to="Blogathon/Contact" className="navLink">
               Contact us
             </Link>
           </nav>

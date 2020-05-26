@@ -12,19 +12,19 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/rachana/">
+          <Route exact path="/Blogathon/">
             <Home />
           </Route>
-          <Route path="/rachana/Abouts">
+          <Route path="/Blogathon/Abouts">
             <Abouts />
           </Route>
-          <Route path="/rachana/About">
+          <Route path="/Blogathon/About">
             <About />
           </Route>
-          <Route path="/rachana/Rachana">
+          <Route path="/Blogathon/Rachana">
             <Theme />
           </Route>
-          <Route path="/rachana/Contact">
+          <Route path="/Blogathon/Contact">
             <Index />
           </Route>
         </Switch>

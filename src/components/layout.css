@@ -33,11 +33,11 @@
 }
 .gid4 {
   font-size: 3vh;
-  padding: 1.4vh;
+  padding: 1.2vh;
 }
 .gid13,
 .gid14 {
-  font-size: 2.5vh;
+  font-size: 2.7vh;
   padding: 2vh;
 }
 .gid7,
@@ -223,6 +223,6 @@ li {
   .root {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 9vh;
+    margin-top: 5vh;
   }
 }

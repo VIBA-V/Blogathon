@@ -65,7 +65,7 @@ export default function SimpleTabs() {
           aria-label="simple tabs example"
         >
           <Tab label="Do's" {...a11yProps(0)} />
-          <Tab label="Dont" {...a11yProps(1)} />
+          <Tab label="Dont's" {...a11yProps(1)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>

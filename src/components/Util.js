@@ -78,7 +78,7 @@ export default function VerticalTabs() {
           <Tab label="Eligibility" {...a11yProps(0)} />
           <Tab label="Judging Criteria" {...a11yProps(1)} />
           <Tab label="Tips & Tricks" {...a11yProps(2)} />
-          <Tab label="Do's & Dont" {...a11yProps(3)} />
+          <Tab label="Do's & Dont's" {...a11yProps(3)} />
         </Tabs>
         <TabPanel value={value} index={0}>
           <Paper

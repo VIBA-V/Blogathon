@@ -20,6 +20,7 @@ export default function Last() {
         >
           <Util />
         </Grid>
+
         <Grid
           item
           xs={12}
@@ -30,6 +31,18 @@ export default function Last() {
           data-aos-easing="ease-in-sine"
           data-aos-duration="600"
         >
+          <Typography
+            variant="h5"
+            style={{
+              margin: "3vh 0vh",
+              color: "#422057FF",
+              fontWeight: "bolder",
+              maxWidth: "100%",
+            }}
+            align="center"
+          >
+            Follow these to check-in into the Google Form
+          </Typography>
           <Apply />
           <Typography
             style={{

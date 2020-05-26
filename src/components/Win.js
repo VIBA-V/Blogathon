@@ -18,10 +18,20 @@ export default function Win() {
             letterSpacing: "2.5px",
             color: "#422057FF",
             fontWeight: "bolder",
-            margin: "2.5vh",
+            marginTop: "3vh",
           }}
         >
-          What Will Your Win Will Bag You...
+          What Will Your{" "}
+          <b
+            style={{
+              fontSize: "5.4vh",
+              fontWeight: "bolder",
+              color: "#F93822FF",
+            }}
+          >
+            Win
+          </b>{" "}
+          Bag You...
           <b
             style={{
               fontSize: "5.4vh",

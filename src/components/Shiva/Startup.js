@@ -63,13 +63,7 @@ export default function Startup() {
         >
           <img src={img34} />
         </div>
-        <div
-          className="dosa5"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600"
-        >
+        <div className="dosa5">
           <img src={img35} />
         </div>
       </div>

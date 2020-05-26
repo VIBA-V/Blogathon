@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.dosa3 {
+  background: #fcf951ff;
+}
+.dosa {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+
+.dosa2 {
+  text-transform: uppercase;
+  color: #422057ff;
+  letter-spacing: 0.15rem;
+  font-size: 45px;
+  margin: 3vh;
+}
+.dosa1 {
+  height: 130px;
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+.dosa6 {
+  height: 130px;
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+.dosa7 {
+  height: 130px;
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+.dosa4 {
+  height: 130px;
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+.dosa5 {
+  height: 130px;
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000;
+}
+.dosa1 img {
+  height: 60px;
+  width: 100px;
+  margin-top: 30px;
+}
+.dosa6 img {
+  height: 110px;
+  width: 100px;
+}
+.dosa7 img {
+  height: 110px;
+  width: 100px;
+}
+.dosa4 img {
+  height: 110px;
+  width: 100px;
+}
+.dosa5 img {
+  height: 80px;
+  width: 100px;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .dosa {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  }
+
+  .dosa2 {
+    text-transform: uppercase;
+    color: #422057ff;
+    letter-spacing: 0;
+    font-size: 35px;
+  }
+  .dosa1 {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+  }
+  .dosa6 {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+  }
+  .dosa7 {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+  }
+  .dosa4 {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+  }
+  .dosa5 {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #000;
+  }
+}

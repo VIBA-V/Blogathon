@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Home from "./components/Home";
+import Abouts from "./components/Shiva/Abouts";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Index from "./components/Shiva/Index";
+import Theme from "./components/Theme";
+import About from "./components/Shiva/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/Rachana/">
+            <Home />
+          </Route>
+          <Route path="/Rachana/Abouts">
+            <Abouts />
+          </Route>
+          <Route path="/Rachana/About">
+            <About />
+          </Route>
+          <Route path="/Rachana/Rachana">
+            <Theme />
+          </Route>
+          <Route path="/Rachana/Contact">
+            <Index />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
